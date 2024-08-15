@@ -1,0 +1,43 @@
+.app {
+    display: flex;
+}
+
+.sidebar {
+    width: 30%;
+    border-right: 1px solid #ccc;
+}
+
+.main-content {
+    width: 70%;
+    padding: 20px;
+}
+
+.customer-list {
+    padding: 10px;
+}
+
+.customer-card {
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+    .customer-card.selected {
+        background-color: #f0f0f0;
+    }
+
+.customer-details {
+    margin-bottom: 20px;
+}
+
+.photo-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+    .photo-grid img {
+        width: 100%;
+        height: auto;
+    }
